@@ -1,0 +1,20 @@
+namespace EX3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name;
+            string bestEat;
+            string color;
+
+           Console.Write(" Как Вас зовут?\n");
+           name = Console.ReadLine();
+           Console.Write(" Предпочтения в еде?\n");
+           bestEat = Console.ReadLine();
+           Console.Write("Ваш любтмый цвет?\n");
+           color = Console.ReadLine();
+           Console.WriteLine($" Имя- {name};\n Любимая кухня - {bestEat};\n Любимый цвет - {color};");
+        }
+    }
+}
