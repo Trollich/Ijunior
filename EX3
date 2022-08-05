@@ -5,16 +5,16 @@ namespace EX3
         static void Main(string[] args)
         {
          string name;
-         string kindEat;
+         string kindOfFood;
          string color;
 
            Console.Write(" Как Вас зовут?\n");
            name = Console.ReadLine();
            Console.Write(" Предпочтения в еде?\n");
-           kindEat = Console.ReadLine();
+           kindOfFood = Console.ReadLine();
            Console.Write("Ваш любтмый цвет?\n");
            color = Console.ReadLine();
-           Console.WriteLine($" Имя- {name};\n Любимая кухня - {kindEat};\n Любимый цвет - {color};");
+           Console.WriteLine($" Имя- {name};\n Любимая кухня - {kindOfFood};\n Любимый цвет - {color};");
         }
     }
 }
