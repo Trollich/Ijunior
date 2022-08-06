@@ -1,0 +1,14 @@
+namespace EX4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = "Иванов";
+            string secondName = "Иван";
+            Console.WriteLine($"{name}-{secondName}");
+            (name, secondName) = (secondName, name);
+            Console.WriteLine($"{name}-{secondName}");
+        }
+    }
+}
